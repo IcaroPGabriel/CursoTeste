@@ -4,21 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        h2{
+            padding-left: 80px;
+        }
+        form{
+            background-color: silver;
+            width: 450px;
+            padding: 20px;
+            border-radius: 10px;
+            border-collapse: collapse;
+        }
+        select{
+            width: 200px;
+            text-align: center;
+        }
+    </style>
 </head>
-<body style="text-align: center;">
+<body>
     <h2>Formulário de candidatura</h2>
-    <form style="background-color: gray ;padding: 10px;" action="">
+    <form action="">
             <label for="nome">Nome: </label>
             <input type="text" id="nome" name="nome">
             <br><br>
-            <label for="email">E-mail: </label>
+            <label for="email">Email: </label>
             <input type="email" id="email" name="email">
             <br><br>
-            <label for="cargo">Cargo de tecnologia</label>
+            <label for="cargo">Cargo de tecnologia:</label>
             <select name="cargo" id="cargos">
+                <option value="">-- Selecione --</option>
                 <option value="pessoa desenvolvedora">Pessoa Desenvolvedora</option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="programador web">Programador web</option>
+                <option value="arquiteto de redes">Arquiteto de redes</option>
             </select>
             <br><br>
             <label for="genero">Gênero: </label>
@@ -39,6 +56,8 @@
             <br><br>
             <label for="Comentários">Fale um pouco mais sobre seu perfil:</label><br>
             <textarea style="resize: none;" name="texto" id="texto" cols="50" rows="5"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
