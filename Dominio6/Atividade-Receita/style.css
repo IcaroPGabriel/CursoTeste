@@ -1,6 +1,8 @@
 body{
     background-color: rgb(234, 226, 226);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header{
     color: white;
@@ -9,24 +11,35 @@ header{
     text-align: center;
     height: 150px;
 }
+header p{
+    margin: 20px;
+}
 .links{
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 #introdução{
     text-align: center;
     font-size: 30px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 .bloco1{
     background-color: white;
     width: 420px;
     height: 345px;
     border-radius: 20px;
-    margin-left: 720px;
     padding-top: 5px;
+    text-align: justify;
 }
 div h3,p{
-    padding-left: 10px;
+padding: 0 10px;
+    
 }
 img{
     border-radius: 10px;
@@ -37,7 +50,6 @@ img{
     width: 420px;
     height: 200px;
     border-radius: 20px;
-    margin-left: 720px;
     padding-top: 5px;
 }
 .bloco3{
@@ -45,7 +57,6 @@ img{
     width: 420px;
     height: 300px;
     border-radius: 20px;
-    margin-left: 720px;
     padding-top: 5px;
 }
 .bloco4{
@@ -53,6 +64,5 @@ img{
     width: 420px;
     height: 300px;
     border-radius: 20px;
-    margin-left: 720px;
     padding-top: 5px;
 }
