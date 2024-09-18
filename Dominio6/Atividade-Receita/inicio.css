@@ -14,7 +14,7 @@ header{
 header p{
     margin: 20px;
 }
-nav{
+.links{
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -34,6 +34,10 @@ main{
     
     text-align: justify;
 }
+.bloco1 > h2{
+    text-align: center;
+}
+
 a:hover{
     background-color: coral;
     color: blue;
