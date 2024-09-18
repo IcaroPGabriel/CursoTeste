@@ -14,7 +14,7 @@ header{
 header p{
     margin: 20px;
 }
-.links{
+nav a{
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -56,14 +56,43 @@ img{
 .bloco3{
     background-color: white;
     width: 420px;
-    height: 300px;
+    height: 280px;
     border-radius: 20px;
     padding-top: 5px;
 }
 .bloco4{
     background-color: white;
     width: 420px;
-    height: 300px;
+    height: 380px;
     border-radius: 20px;
+    text-align: center;
+}
+#tit{
     padding-top: 5px;
+}
+#subtit{
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    margin: 10px;
+}
+.tabela{
+    width: 400px;
+    text-align: center;
+    margin-left: 15px;
+}
+tr th{
+    background-color: rgb(236, 231, 231);
+}
+#obs{
+    background-color: rgb(238, 232, 232);
+    height: 43px;
+    padding-top: 10px;
+    margin: 10px;
+}
+a:hover{
+    background-color: #f3f4f6;
+    color: black;
+    border-radius: 5px;
 }
