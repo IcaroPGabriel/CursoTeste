@@ -33,15 +33,10 @@ header{
     text-align: center;
     color: white;
     font-family: verdana;
+    font-size: 20px;
+}
+#cx2{
 
-}
-div h1{
-    font-size:  40px;
-   
-    
-}
-div form{
-    border-radius: 100px;
 }
 div a{
     text-decoration: none;
