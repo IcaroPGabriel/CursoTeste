@@ -6,21 +6,19 @@ background-repeat: no-repeat;
 
 #logo{
     
-    width: 190px;
+    width: 200px;
     height: 30px;
-    padding-left: 550px;
+
 }
-nav a{
-    display: inline;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 2px solid black;
-    font-size: larger;
+header{
+    display: flex;
+    justify-content: space-between;
 }
+
 #login{
     color: white;
     text-decoration: none;
+    font-size: 15px;
 }
 #registro{
     background-color: white;
@@ -29,6 +27,7 @@ nav a{
     color: black;
     border-radius: 5px;
     text-decoration: none;
+    font-size: 15px;
 }
 #cx1{
     text-align: center;
