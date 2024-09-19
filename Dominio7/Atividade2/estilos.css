@@ -1,0 +1,51 @@
+body{
+background-image: url(imagens/SmartSelect_20240919_110351_Samsung\ Notes.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#logo{
+    
+    width: 190px;
+    height: 30px;
+    padding-left: 550px;
+}
+nav a{
+    display: inline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+    font-size: larger;
+}
+#login{
+    color: white;
+    text-decoration: none;
+}
+#registro{
+    background-color: white;
+    width: 10px;
+    height: 15px;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#cx1{
+    text-align: center;
+    color: white;
+    font-family: verdana;
+
+}
+div h1{
+    font-size:  40px;
+   
+    
+}
+div form{
+    border-radius: 100px;
+}
+div a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
