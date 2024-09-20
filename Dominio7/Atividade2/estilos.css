@@ -5,12 +5,11 @@ background-repeat: no-repeat;
 }
 
 #logo{
-    
     width: 200px;
     height: 30px;
 
 }
-header{
+.inicio{
     display: flex;
     justify-content: space-between;
 }
@@ -19,6 +18,7 @@ header{
     color: white;
     text-decoration: none;
     font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #registro{
     background-color: white;
@@ -28,18 +28,40 @@ header{
     border-radius: 5px;
     text-decoration: none;
     font-size: 15px;
+    border: 3px solid transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #cx1{
     text-align: center;
     color: white;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 30px;
+    
 }
-#cx2{
-
+.pesquisa{
+    display: flex;
+    justify-content: center;
 }
-div a{
+input{
+    background-color: white;
+    border: 0 none;
+    border-radius: 40px;
+    width: 300px;
+    border-color: none;
+}
+input:focus{
+    border: 0 none;
+}
+button{
+    background-color: red;
+    color:white;
+    border: 0 none;
+    border-radius: 20px;
+}
+#observação{
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
