@@ -159,6 +159,7 @@
     */
 
     
+    /*
     let nota1 = parseFloat(prompt("Digite a primeira nota"))
     let nota2 = parseFloat(prompt("Digite a segunda nota"))
     let nota3 = parseFloat(prompt("Digite a terceira nota"))
@@ -173,10 +174,109 @@
     }else if (media <4 ){
         alert("Não passou");
     }
-    
-    
-    
-    
+    */
+
+    // 1. Questão 1: Escreva um código que verifique se um número é positivo. Caso contrário, mostre que ele é negativo.
+
+    /* let numero1 = parseFloat(prompt("Digite um número: "))
+
+    if (numero1 > 0) {
+        console.log("O número é positivo");
+        
+    } else {
+        console.log("O número é negativo");
+        
+    }
+    */
+
+    // 2. Questão 2: Crie uma condição para verificar se a variável x é maior que 10. Se for, exiba "Maior que 10", senão exiba "Menor ou igual a 10".
+
+    /* let x = parseFloat(prompt("Digite um número: "))
+
+    if (x > 10) {
+        console.log("Maior que 10");
+        
+    } else {
+        console.log("Menor ou igual a 10");
+    }
+    */
+
+    // . Questão 3: Use if e else para verificar se uma variável idade é maior ou igual a 18. Exiba "Pode votar" se for, senão exiba "Não pode votar".
+
+    /* let idade = parseFloat(prompt("Digite sua idade: "))
+
+    if (idade >= 18) {
+        console.log("Pode votar");
+        
+    } else {
+        console.log("Não pode votar");
+        
+    }
+    */
+
+    // 4. Questão 4: Verifique se um número é par ou ímpar usando o operador %.
+    // resposta: se(o resto da divisão do numero por 2 for zero -> é par, se não -> ímpar)
+
+
+        /*
+        let num = parseFloat(prompt("Digite um número: "));
+        let w = 2
+        let modulo = num % w;
+
+        
+        if (modulo == 0) {
+            console.log("é par");
+            
+        } else {
+            console.log("é impar");
+            
+        }
+        */
+
+        // 5. Questão 5: Escreva um código que verifica se uma pessoa pode dirigir, baseado na idade e no fato de possuir ou não carteira de motorista (duas condições).
+
+        /* let idade = parseInt(prompt("Digite sua idade: "));
+        let carteira = confirm("Tem carteira?");
+
+        if (idade >=18 && carteira == true) {
+            console.log("Pode dirigir");
+            
+        } else {
+            console.log("Não pode dirigir");
+            
+        }
+        */
+
+        // 6. Questão 6: Crie uma condição que mostre "Aprovado", "Recuperação" ou "Reprovado" com base em uma variável nota, considerando que >= 7 é aprovado, entre 5 e 6.9 é recuperação, e < 5 é reprovado.
+
+        /*
+        let nota1 = parseFloat(prompt("Digite a primeira nota"))
+        let nota2 = parseFloat(prompt("Digite a segunda nota"))
+        let nota3 = parseFloat(prompt("Digite a terceira nota"))
+        let nota4 = parseFloat(prompt("Digite a quarta nota"))
+
+        let media = (nota1 + nota2 + nota3 + nota4) /4;
+
+        if (media >= 7) {
+            alert("Passou!");
+        } else if (media <7 && media >=5) {
+            alert("Recuperação");
+        }else if (media <5 ){
+            alert("Não passou");
+        }
+        */
+
+        // 7. Questão 7: Escreva um código que verifica se um número é divisível por 5 e por 3 ao mesmo tempo.
+
+        let numero = parseFloat(prompt("Digite um número"))
+
+        if (numero / 5 && numero / 3) {
+            console.log("é divisível");
+            
+        } else {
+            console.log("não é divisível");
+            
+        }
 
 </script>
 <body>

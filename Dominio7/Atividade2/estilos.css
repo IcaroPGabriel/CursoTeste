@@ -2,6 +2,8 @@ body{
 background-image: url(imagens/SmartSelect_20240919_110351_Samsung\ Notes.jpg);
 background-size: cover;
 background-repeat: no-repeat;
+padding: 0;
+margin: 0;
 }
 
 #logo{
