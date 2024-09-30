@@ -183,9 +183,11 @@
     if (numero1 > 0) {
         console.log("O número é positivo");
         
-    } else {
-        console.log("O número é negativo");
+    } else if(numero1 == 0) {
+        console.log("O número é neutro");
         
+    }else {
+        console.log("O número é negativo");
     }
     */
 
@@ -219,7 +221,7 @@
 
 
         /*
-        let num = parseFloat(prompt("Digite um número: "));
+        let num = parseInt(prompt("Digite um número: "));
         let w = 2
         let modulo = num % w;
 
@@ -267,16 +269,108 @@
         */
 
         // 7. Questão 7: Escreva um código que verifica se um número é divisível por 5 e por 3 ao mesmo tempo.
-
-        let numero = parseFloat(prompt("Digite um número"))
-
-        if (numero / 5 && numero / 3) {
+        /*
+        let numero = parseInt(prompt("Digite um número"))
+        if (numero % 3 == 0 && numero % 5 == 0) {
             console.log("é divisível");
             
         } else {
-            console.log("não é divisível");
+            console.log("Não é divisível");
             
         }
+        */
+
+        // Questão 8: Faça um programa que exiba "Bom dia", "Boa tarde" ou "Boa noite" dependendo da hora (suponha valores entre 0 e 23).
+        /*
+        let hora = parseInt(prompt("digite a hora"))
+        if (hora >= 5 && hora <12) {
+            alert("Bom dia!");
+        } else if (hora >=12 && hora < 18) {
+            alert("Boa tarde!")
+        } else if(hora >=18 && hora <= 23){
+            alert("Boa noite!")
+        }
+        */
+
+        // Questão 9: Verifique se a soma de dois números a e b é maior que 10. Se for, exiba "Soma maior que 10", senão exiba "Soma menor ou igual a 10".
+        /*
+        let x = parseFloat(prompt('Digite um número'))
+        let y = parseFloat(prompt('Digite um número'))
+        if (x + y > 10) {
+            alert("Soma maior que 10")
+        } else {
+            alert("Soma menor ou igual que 10")
+        }
+        */
+        
+
+        // TEOREMA DE PITÁGORAS
+
+
+        
+        // Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2))
+        /*
+        let x1 = parseFloat(prompt('Digite um número'))
+        let y1 = parseFloat(prompt('Digite um número'))
+        
+
+        Math.hypot = Math.sqrt(Math.pow(x1, 2) + Math.pow(y1, 2))
+
+        console.log("O resultado é:" + Math.hypot);
+        */
+        /*
+        2. Construa um algoritmo de PORTUGOL para determinar se o indivíduo esta com um peso
+        favorável. Essa situação é determinada através do IMC (Índice de Massa Corpórea), que é
+        definida como sendo a relação entre o peso (PESO) e o quadrado da Altura (ALTURA) do
+        indivíduo.
+        */
+
+        /*
+        let peso = parseFloat(prompt("Digite seu peso: "))
+        let altura = parseFloat(prompt("Digite sua altura: "))
+
+        let imc = peso / (altura * altura);
+
+        if (imc < 20) {
+            alert("IMC abaixo de 20")
+        } else if(imc > 20 && imc <=25) {
+            alert("Peso normal")
+        } else if(imc > 25 && imc <=30){
+            alert("Sobrepeso")
+        } else if (imc > 30 && imc <= 40){
+            alert("Obeso")
+        } else if (imc > 40){
+            alert("Obeso Mórbido")
+        }
+        */
+
+        /*
+        3. A CEF concederá um crédito especial com juros de 2% aos seus clientes de acordo com o saldo médio no último ano. Fazer um algoritmo em PORTUGOL que leia o saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela a seguir.
+        Imprimir uma mensagem informando o saldo médio e o valor de crédito.
+        */
+
+        let saldo = parseFloat(prompt("Digite seu saldo: "))
+
+        let media  = saldo / 12;
+
+
+
+        if (media >= 0 && media <= 500) {
+            alert("Sem saldo");
+        } else if(media > 500 && media <= 1000) {
+            alert("O valor do crédito é: " + media*0.3)
+        } else if(media > 1000 && media <= 3000) {
+            alert("O valor do crédito é: " + media*0.4)
+        }   else if(media > 3000) {
+            alert("O valor do crédito é: " + media*0.5)
+        }
+
+
+
+        
+
+
+
 
 </script>
 <body>
