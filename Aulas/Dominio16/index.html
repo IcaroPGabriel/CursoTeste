@@ -137,7 +137,7 @@
         5. Crie um programa que, utilizando um laço while, peça ao usuário para digitar 10 números e exiba quantos desses números são primos.
         */
         
-
+        /*
         for (let i = 1; i <=10 ; i++) {
             let num = parseInt(prompt("Digite os números"))
             primo = num / 1 && num / num
@@ -146,9 +146,37 @@
                 div++
             } 
         }
+        */
+
+        // COM DO WHILE
+
+        // 1. Crie um programa que, utilizando um laço do...while, exiba os números de 1 a 10 no console.
+
+        // let x = 0
+        // for (let i = 1; i <= 10; i++) {
+        // do {
+        // x++
+        // console.log(x)
+        // break
+        // } while (x == 10);{
+        // }   
+        // }
+
+        // 2. Crie um programa que, utilizando um laço do...while, peça ao usuário para digitar um número positivo, repetindo a solicitação até que um valor positivo seja inserido.
 
 
-
+        let usuario = parseInt(prompt("Digite um número positivo"))
+        for (let i = 1; i < 10; i++) {
+        if (usuario > 0) {
+        console.log("O número é positivo");
+        break 
+        } 
+        do {
+        let usuario = parseInt(prompt("Digite um número positivo"))
+        break
+           
+        } while (usuario <= 0);
+        }
         
 
 
