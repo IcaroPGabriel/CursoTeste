@@ -34,7 +34,7 @@
         <li>Adicionar -> .classlist.add('Classe')</li>
         <li>Remover -> .classlist.remove('Classe')</li>
         <li>Trocar -> .classlist.toggle('Classe')</li>
-        <li>Verificar classe</li>
+        <li>Verificar classe -> .classlist.contains ('Classe')</li>
     </ul>
 
     <p onclick="verificarParagrafo()" id="paragrafo1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse porro, consequatur vel libero assumenda nisi illo nostrum doloremque harum? Assumenda odit et veritatis ipsam alias accusantium minus quasi recusandae molestiae.</p>
@@ -94,6 +94,9 @@
     function adicionarClasse(params) {
         let imagem = document.getElementById('img1')
         imagem.classList.add('yadorat')
+
+        let temClasse = imagem.classList.contains('gokussj')
+        console.log(temClasse);
     }
 
     function removerClasse() {
